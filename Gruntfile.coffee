@@ -7,6 +7,9 @@ module.exports = (grunt)->
       flag:
         src: 'less/flag-icon.less'
         dest: 'css/flag-icon.css'
+      flagExtended:
+        src: 'less/flag-icon-extended.less'
+        dest: 'css/flag-icon-extended.css'
       docs:
         src: 'assets/docs.less'
         dest: 'assets/docs.css'
@@ -15,7 +18,9 @@ module.exports = (grunt)->
       flag:
         src: 'css/flag-icon.css'
         dest: 'css/flag-icon.min.css'
-
+      flagExtended:
+        src: 'css/flag-icon-extended.css'
+        dest: 'css/flag-icon-extended.min.css'
     watch:
       css:
         options:
