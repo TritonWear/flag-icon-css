@@ -2,6 +2,7 @@
   "name": "flag-icon-css",
   "version": "2.8.0",
   "author": "Panayiotis Lipiridis <lipiridis@gmail.com>",
+  "main": "./css/flag-icon-extended.min.css",
   "licenses": [
     {
       "type": "MIT",
